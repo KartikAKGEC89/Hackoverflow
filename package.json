@@ -1,0 +1,24 @@
+{
+  "name": "inventory-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartik",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "modules": "^0.4.0",
+    "mongoose": "^7.1.1",
+    "node": "^20.1.0",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7"
+  }
+}
